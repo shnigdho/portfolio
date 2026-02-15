@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Colors - Deep Cosmic Gradient */
+    --bg-primary: #050511;
+    /* Very dark blue */
+    --bg-secondary: #1a0b2e;
+    /* Dark purple */
+
+    --glass-surface: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --glass-highlight: rgba(255, 255, 255, 0.1);
+
+    /* Neons */
+    --neon-purple: #b026ff;
+    --neon-blue: #00eaff;
+    --neon-pink: #ff007f;
+
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0c0;
+
+    --accent-color: var(--neon-purple);
+    --border-color: var(--glass-border);
+
+    /* Typography */
+    --font-sans: 'Space Grotesk', sans-serif;
+
+    /* Spacing */
+    --container-padding: 2rem;
+    --max-width: 1400px;
+}
